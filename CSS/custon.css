@@ -1,0 +1,427 @@
+@import url(./CSS/config.css);
+
+html,
+body{
+    font-family: Poppins ;
+    text-decoration: none;
+    list-style: none;
+    min-width: 100px;
+    overflow-x: hidden;
+}
+
+
+section.block{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/*TODO Start Area de Informação Rápida */
+section#info{
+    
+    color: var(--grey);
+    background-color:  var(--primary);
+}
+section#info .sliga{
+    color: var(--secundary);
+}
+#info .emailCollege:hover, #info .cellCollege:hover{
+    color: var(--secundary);
+}
+
+
+
+/*TODO End Area de Informação Rápida */
+
+
+
+/*TODO Start Area do LOGOTIPO*/
+
+img.imgLOGO{
+
+    height: 100px;
+    width: 100px;
+    margin-left: 70px  ;
+    margin-right: 210px;
+
+    animation: floating 2s ease-in-out infinite;
+}
+h3.logoName{
+    font-size: 1.1rem;
+    color: var(--secundary);
+      display: none;
+    
+}
+
+h3.logoName:hover{
+    transition-duration: .5s;
+    box-shadow: 10px 5px 5px var(--grey);
+}
+
+@keyframes floating{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/*TODO End Area de LOGOTIPO*/
+
+
+
+
+
+
+
+/*TODO  Start Area de Menu de Navegação */
+#header{
+    height: 100px;
+}
+
+#header .button-sign{
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 25px; 
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    transition: 0.5s;
+    box-shadow: 0 0 10px var(--secundary);
+    color: var(--secundary); 
+    background-size: 200% auto;
+    border-color: var(--secundary);
+  
+     
+     
+}
+
+a.button-sign:hover {
+    background-position: right center; /** change the direction of the change here */
+    color: var(--secundary);
+    text-decoration: none;
+  }
+
+
+
+
+/*TODO LINKS de Navegação  */
+#listMenu .nav-link{
+    color: var(--primary);
+    
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 15px;
+
+    padding-left: 0;
+    padding-right: 0;
+    
+    margin-bottom: 5px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border: solid 5px transparent ;
+    cursor: pointer;
+
+}
+#listMenu li a.home{color: var(--lightblue);}
+#listMenu .nav-link:hover{color:var(--lightblue);}
+
+#listMenu li a.mood_all:hover{
+    border-bottom: solid 5px var(--lightblue);;
+    transition-duration: 0.9s ease ;
+}
+
+
+
+
+
+
+
+
+
+
+/*TODO  End Area de Menu de Navegação */
+
+
+
+
+div.carousel-size{
+    height: 700px;
+    width: 100%;
+}
+
+div.carousel-size img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-wdth: 800px) {
+    div.carousel-size img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*TODO Start Area Sobre */
+section#aboutUs{
+    margin-bottom: 100px;
+    background-color: var(--primary);
+    padding: 20px;
+
+}
+
+section#aboutUs .areaTxt{
+   color: var(--secundary);
+   
+}
+
+section#aboutUs a{
+    font-size: 1rem;
+    text-decoration: none;
+
+    padding: 10px 30px;
+    background-color: var(--secundary);
+    border-radius: 5px;
+    
+   
+    
+}
+section#aboutUs a:hover{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: var(--secundary);
+    transition-duration: 1s;
+}
+
+
+
+/** End Area Sobre */
+
+
+
+
+
+
+
+
+
+
+/*TODO Start Area Cursos */
+
+div.container h1.title{
+    font-weight: 600;
+    color: var(--darkblue);
+
+}
+div.container h3.subtitle{
+    font-weight: 500;
+    color: var(--primary);
+    padding-bottom: 20px;
+
+}
+
+#areaCursos a.destaque{
+    display: block;
+    background: var(--primary);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    
+    text-decoration: none;
+    color: var(--secundary);
+    transition: all ease-in-out .2s;
+}
+#areaCursos a.destaque:hover{
+    background: var(--secundary);
+    box-shadow: 0px 0px 10px 0px var(--lightblue);
+    color: var(--primary);
+}
+
+
+
+
+#areaCursos a.destaque .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+#areaCursos a.destaque .img-container img{
+    max-height: 160px;
+    
+}
+
+h4.title, h5.title{
+    font-weight: 600;
+}
+
+
+
+/*TODO End Area Cursos */
+
+
+
+
+/*TODO Start Area Aderência de Cursos */
+
+section#adCurso{
+    background-color: var(--primary);
+    color: var(--secundary);
+    
+}
+section#adCurso main{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    cursor: pointer;
+}
+
+
+section#adCurso p{
+    font-size: 1.2rem;
+}
+
+
+/*TODO End Area Aderência de Cursos */
+
+
+
+
+/*TODO Start Area Galeria */
+section#areaGaleria{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+section#areaGaleria .title{
+    font-weight: bold;
+    color: var(--primary);
+}
+
+main.galeria{
+ 
+  
+    box-sizing: border-box;
+    padding: 16px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+    gap: 16px;
+
+}
+
+.image-grid-col-2{
+    grid-column: span 2;
+}
+.image-grid-row-2{
+    grid-row: span 2;
+}
+
+main.galeria > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+/*TODO End Area Galeria */
+
+
+
+
+
+/*TODO Start Area Formulário */ 
+
+#custonForm{
+
+    border-radius: 5px;
+    box-shadow: 0 0 1em var(--grey);
+    padding: 20px;
+    
+}
+
+#custonForm nav h2.title{
+    font-weight: 600;
+    color: var(--lightblue);
+    cursor: pointer;
+}
+#custonForm nav h2.title:hover{
+    color: var(--grey); 
+    transition-duration: 0.5s;
+}
+
+
+
+button.btn-Form{
+             
+
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+        margin: 10px;
+        padding: 15px 25px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: var(--secundary);            
+    
+        border-radius: 10px;
+        display: block;
+        border-color: var(--secundary);
+
+
+}
+
+button.btn-Form:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: var(--secundary);
+    text-decoration: none; 
+}
+
+/*TODO End Area Formulário */
+
+
+
+
+
+/*TODO Start Area Footer*/
+
+/** Toda a Area */ 
+footer{
+    background-color: var(--primary);
+    color: var(--secundary);
+   
+}
+
+/** title */
+footer h5{
+    font-weight: bold;
+}
+/** Links */
+footer a{
+    text-decoration: none;
+    cursor : pointer;
+}
+
+/** Links Icons */
+footer li a#icon{
+    font-size: 24px;
+}
+/*TODO End Area Footer*/ 

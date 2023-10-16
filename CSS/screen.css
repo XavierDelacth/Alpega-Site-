@@ -1,0 +1,81 @@
+@import url(./CSS/config.css);
+
+section#printChoice{
+    
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em var(--grey);
+    background-color: var(--primary);
+    
+}
+h3.title_print{
+    color: var(--secundary)
+}
+.screen{
+
+    width: 100vw;
+    height: 100vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+main {
+    border-radius: 5px;
+    padding: 50px;
+    background-color: var(--primary);
+
+}
+
+div#containerValue{
+    
+   
+    
+    background-color: var(--secundary);
+    color: var(primary);
+    cursor: not-allowed;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sms-success{
+    font-size: 20px;
+}
+
+#buttonArea{
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttonArea > a{
+
+    padding: 10px;
+   
+}
+#buttonArea > a.inicial{
+    margin: 10px;
+
+}
+
+img.printLOGO{
+
+    height: 100px;
+    width: 100px;
+
+
+    
+}
+
+

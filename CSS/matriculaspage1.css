@@ -1,0 +1,193 @@
+
+    section#titlePage{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        font-size: 1.5rem;
+        text-align: center;
+
+        background-color: var(--primary);
+        color: var(--secundary);
+    }
+
+
+footer.backFooter{
+    bottom: 0;
+    position: fixed;
+}
+    nav.voltar {
+        margin-left:10px;
+    }
+nav.voltar li{
+        font-size: 1.3rem;
+    }
+
+
+
+section#choiceCurso{
+    
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em var(--grey);
+}
+section#Login{  
+    background-color: black;
+    color: azure;
+    padding: 10px 10px;
+    margin-top: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em var(--grey);
+}
+
+a.show{
+    display: block ;
+}
+a.close{
+    display:none;
+}
+
+section h3.title{
+    font-weight: 600;
+    color: var(--primary);
+  }
+div.custon_error{
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+}
+
+
+/*TODO  Area Pagina sobre os Cursos  */
+
+body#Local_Curso_info{
+    background-color: var(--greySoft);
+}
+
+h2.custon_title{
+    color: var(--primary);
+    font-weight: 700;
+    animation: floating 2s ease-in-out infinite;
+    font-size: 4rem;
+}
+
+
+
+article {
+    width: 100%;
+   
+}
+article img#all_firts{
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin: 0 0 5px 20px;
+    box-shadow: 5px 5px 15px var(--grey);
+
+}
+article img#all_second{
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin: 5px 30px 0 0;
+    box-shadow: 5px 5px 15px var(--grey);
+}
+
+article p{
+    font-size: 1.1rem;
+    line-height: 160%;
+    margin-bottom: 1rem ;
+    color: var(--primary)
+}
+
+article p#expressive{
+     color: var(--lightblue); 
+     font-weight: 600;
+}
+
+
+section.back{
+    background-color: var(--grey);
+    color: var(--primary);
+}
+
+.back div{
+    color: var(--secundary);
+}
+
+@keyframes floating{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+/*Todo Contactos */
+h2.title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+.navbar{
+    background-color: var(--primary);
+    color: var(--secundary);
+}
+.text-bold{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--secundary);
+}
+#listMenu .nav-link{
+    color: var(--secundary);
+}
+#listMenu .nav-link:hover{
+    color: var(--grey);
+}
+div.container-iframe{
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+iframe.iframe{
+    width: 100%;
+    height: 600px;
+
+
+}
+
+div.color{
+    background-color: var(--secundary);
+}
+#listMenu li a.mood:hover{
+    border-bottom: solid 5px var(--greySoft);;
+    transition-duration: 0.9s ease ;
+}
+
+
+h1.title,h2.title{
+    font-weight: 600;
+}
+
+div.footeradm{
+    background-color: var(--primary);
+    
+}
+
+div.title_tabels{
+    color: var(--primary);
+    font-size: 30px;
+    font-weight: 700;
+}
+#flexButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margem-all{
+    margin-bottom: 200px;
+}
