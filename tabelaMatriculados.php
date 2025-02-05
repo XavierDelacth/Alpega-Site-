@@ -297,13 +297,13 @@ if(isset($_SESSION["Username"]) && isset($_SESSION["userPassword"])){
                                 <td>
                                 <a href='tabelaMatriculados.php?d=".$id."' class='btn btn-danger text-white'>Deletar</a> 
 
-                                <a href='tabelaMatriculados.php?' class='btn btn-success text-white'> Excel </a>
+                                
                                 
                                 </td>
                                 
                             
                             ";
-
+                          //  <a href='tabelaMatriculados.php?' class='btn btn-success text-white'> Excel </a>
                         }
                     }
                     
@@ -359,13 +359,13 @@ if(isset($_SESSION["Username"]) && isset($_SESSION["userPassword"])){
                             
                                 <td>
                                 <a href='tabelaMatriculados.php?d_p=".$id."' class='btn btn-danger text-white'>Deletar</a> 
-                                <a href='tabelaMatriculados.php?' class='btn btn-success text-white'> Excel </a>
+                               
                                 
                                 </td>
                                 
                             
                             ";
-
+                            // <a href='tabelaMatriculados.php?' class='btn btn-success text-white'> Excel </a>
                         }
                     }
                 
@@ -423,14 +423,14 @@ if(isset($_SESSION["Username"]) && isset($_SESSION["userPassword"])){
                             
                                 <td>
                                 <a href='tabelaMatriculados.php?d_s=".$id."' class='btn btn-danger text-white'>Deletar</a> 
-                                <a href='tabelaMatriculados.php?' class='btn btn-success text-white'> Excel </a>
+                               
                                 
                                 
                                 </td>
                                 
                             
                             ";
-
+                            //  <a href='tabelaMatriculados.php?' class='btn btn-success text-white'> Excel </a>
                         }
                     }
                 }if($_GET["p"] == "13"){
@@ -486,12 +486,13 @@ if(isset($_SESSION["Username"]) && isset($_SESSION["userPassword"])){
                             
                                 <td>
                                 <a href='tabelaMatriculados.php?d_t=".$id."' class='btn btn-danger text-white'>Deletar</a> 
-                                <a href='tabelaMatriculados.php?' class='btn btn-success text-white'> Excel </a>
+                                
                                 
                                 </td>
                                 
                             
                             ";
+                            //<a href='tabelaMatriculados.php?' class='btn btn-success text-white'> Excel </a> 
 
                         }
                     }

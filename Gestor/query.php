@@ -1,6 +1,10 @@
 <?php 
 class Gestor
 {    
+    //Li kum deve faze kel ligação
+    // é so preenche ex variaveis lidebox 
+
+
     private $db_server = 'localhost';
     private $db_name = 'alpega_adm';
     private $db_charset = 'utf8';
@@ -8,6 +12,7 @@ class Gestor
     PRIVATE $db_password = '';
     
     //==================================================================
+
     public function EXE_QUERY($query, $parameters = null, $debug = true, $close_connection = true){
         //executes a query the the database (SELECT)
         $results = null;
