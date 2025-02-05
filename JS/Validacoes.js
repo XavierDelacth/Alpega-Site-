@@ -45,7 +45,6 @@ form_Reserva.addEventListener('submit', (e)=>{
 
         function verificarOption(value){
             if(value == 'nenhum'){
-               
                 message_Erro ='Erro no campo das Opções '+value;
                 return false;
             }else{
@@ -55,7 +54,7 @@ form_Reserva.addEventListener('submit', (e)=>{
 
         function verificarDatas(value){
             if(valores_nUsados.test(value) == true ){
-                        
+    
                 message_Erro ='Preencha corretamente do campo Datas';
             }else{
                 if(value.length <= 0){
@@ -125,14 +124,10 @@ form_Reserva.addEventListener('submit', (e)=>{
             verificarNumero(document.getElementById('numero_id').value) == false||
             verificarBI(document.getElementById('biAluno_id').value) == false
         ){            
-           
-
-            e.preventDefault(); 
-          
+           e.preventDefault();           
             message_add.classList.add("alert-warning");
-            message_add.innerText = message_Erro;
-            
-                    
+            message_add.innerText = message_Erro;       
+                   
         }
 
         

@@ -13,30 +13,19 @@ h3.title_print{
     color: var(--secundary)
 }
 .screen{
-
     width: 100vw;
     height: 100vh;
-
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-
-
-
 main {
     border-radius: 5px;
     padding: 50px;
     background-color: var(--primary);
-
 }
 
-div#containerValue{
-    
-   
-    
+div#containerValue{        
     background-color: var(--secundary);
     color: var(primary);
     cursor: not-allowed;
